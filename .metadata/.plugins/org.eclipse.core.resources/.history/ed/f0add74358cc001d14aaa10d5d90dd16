@@ -1,0 +1,26 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Twitter {
+	
+	private List<Usuario> usuarios = new ArrayList<Usuario>();
+	
+	
+	public List<Usuario> getUsuarios(){
+		return this.usuarios;
+	}
+	
+	public boolean equals(newUsuario) {
+		return true;
+	}
+		
+	public void agregarUsuario(Usuario newUsuario) {
+		if(this.getUsuarios().contains(newUsuario.getScreenName())) {
+			System.out.println("El usuario con este ScreenName ya existe");
+		}else {
+			this.usuarios.add(newUsuario);
+		}
+	}
+}

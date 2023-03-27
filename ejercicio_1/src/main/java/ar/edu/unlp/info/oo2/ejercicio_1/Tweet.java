@@ -1,0 +1,24 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+
+public class Tweet {
+
+	private String text;
+	
+	
+	public String getText() {
+		return this.text;
+	}
+	
+	public void setText(String newText) {
+		if(newText.length()<280 && newText.length()>1) {
+			this.text = newText;
+		}else {
+			System.out.println("El texto debe tener entre 1 y 280 caracteres");
+		}
+	}
+	
+	
+	
+	
+	
+}

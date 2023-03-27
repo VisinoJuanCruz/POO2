@@ -1,0 +1,8 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Twitter {
+	private List<Usuario> usuarios = new ArrayList<Usuario>;
+}

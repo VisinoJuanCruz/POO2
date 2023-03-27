@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Usuario {
+
+	private List<Tweet> tweets= new ArrayList<Tweet>();
+	private String screenName;
+
+	public List<Tweet> getTweets(){
+		return this.tweets;
+	}
+
+}

@@ -1,0 +1,18 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+
+public class Tweet {
+
+	private String text;
+	private boolean retweet;
+	private Tweet original;
+	
+	public String getText() {
+		return this.text;
+	}
+	
+	public void setText(String newText) {
+		if(newText.length()<280 && newText.length()>1) {
+			this.text = newText;
+		}
+	}
+}
